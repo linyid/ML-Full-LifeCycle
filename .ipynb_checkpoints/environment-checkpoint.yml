@@ -1,0 +1,16 @@
+name: tutorial-ml
+channels:
+  - conda-forge
+  - pyviz
+dependencies:
+  - python=3.8
+  - pip
+  - numpy >= 1.18.5
+  - pandas
+  - holoviews >= 1.14
+  - bokeh
+  - jupyterlab
+  - jupyter-server-proxy
+  - nodejs
+  - pip:
+    - atoma
